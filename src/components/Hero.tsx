@@ -1,14 +1,7 @@
-import logo from "@/assets/logo.png";
-
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center section-padding pt-32">
       <div className="container-narrow text-center">
-        <img 
-          src={logo} 
-          alt="Calmly Curious" 
-          className="h-24 md:h-32 lg:h-40 w-auto mx-auto mb-8 animate-fade-in-up" 
-        />
         
         <p className="text-primary text-lg md:text-xl lg:text-2xl font-semibold leading-relaxed mb-6 animate-fade-in-delay-1 max-w-3xl mx-auto">
           Calmly Curious is built on the belief that thoughtful attention and careful questioning lead to better content.
