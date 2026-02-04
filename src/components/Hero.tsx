@@ -16,7 +16,7 @@ const Hero = () => {
           <span className="text-foreground">Every detail matters.</span>
         </div>
 
-        <div className="mt-16 animate-fade-in-delay-3">
+        <div className="mt-10 animate-fade-in-delay-3">
           <a
             href="#about"
             className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
