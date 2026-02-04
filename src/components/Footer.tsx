@@ -1,11 +1,13 @@
+import logo from "@/assets/logo.png";
+
 const Footer = () => {
   return (
     <footer className="border-t border-border py-12 px-6">
       <div className="container-narrow">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
-            <span className="font-heading text-xl text-foreground">Calmly Curious</span>
-            <p className="text-muted-foreground text-sm mt-1">
+            <img src={logo} alt="Calmly Curious" className="h-8 w-auto" />
+            <p className="text-muted-foreground text-sm mt-2">
               Website review & content refinement
             </p>
           </div>

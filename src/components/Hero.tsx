@@ -1,10 +1,14 @@
+import logo from "@/assets/logo.png";
+
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center section-padding pt-32">
       <div className="container-narrow text-center">
-        <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl text-foreground mb-8 animate-fade-in-up">
-          Calmly Curious
-        </h1>
+        <img 
+          src={logo} 
+          alt="Calmly Curious" 
+          className="h-24 md:h-32 lg:h-40 w-auto mx-auto mb-8 animate-fade-in-up" 
+        />
         
         <p className="text-primary text-lg md:text-xl lg:text-2xl font-light leading-relaxed mb-6 animate-fade-in-delay-1 max-w-3xl mx-auto">
           Built on the belief that thoughtful attention and careful questioning lead to better content.
