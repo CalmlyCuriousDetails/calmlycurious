@@ -11,7 +11,7 @@ const Hero = () => {
         />
         
         <p className="text-primary text-lg md:text-xl lg:text-2xl font-semibold leading-relaxed mb-6 animate-fade-in-delay-1 max-w-3xl mx-auto">
-          Built on the belief that thoughtful attention and careful questioning lead to better content.
+          Calmly Curious is built on the belief that thoughtful attention and careful questioning lead to better content.
         </p>
         
         <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-10 animate-fade-in-delay-2 max-w-2xl mx-auto">
