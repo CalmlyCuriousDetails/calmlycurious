@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo.png";
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -14,8 +12,8 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <nav className="container-narrow px-6 py-4 flex items-center justify-between">
-        <a href="#" className="hover:opacity-80 transition-opacity">
-          <img src={logo} alt="Calmly Curious" className="h-10 w-auto" />
+        <a href="#" className="font-heading text-2xl text-foreground hover:text-primary transition-colors">
+          Calmly Curious
         </a>
 
         {/* Desktop Navigation */}
