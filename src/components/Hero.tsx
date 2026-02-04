@@ -10,7 +10,7 @@ const Hero = () => {
           className="h-24 md:h-32 lg:h-40 w-auto mx-auto mb-8 animate-fade-in-up" 
         />
         
-        <p className="text-primary text-lg md:text-xl lg:text-2xl font-light leading-relaxed mb-6 animate-fade-in-delay-1 max-w-3xl mx-auto">
+        <p className="text-primary text-lg md:text-xl lg:text-2xl font-semibold leading-relaxed mb-6 animate-fade-in-delay-1 max-w-3xl mx-auto">
           Built on the belief that thoughtful attention and careful questioning lead to better content.
         </p>
         
