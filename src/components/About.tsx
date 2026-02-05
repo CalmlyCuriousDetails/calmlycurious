@@ -1,3 +1,5 @@
+import mainCurious from "@/assets/maincurious.jpg";
+
 const About = () => {
   return (
     <section id="about" className="section-padding pt-12 bg-card">
@@ -31,23 +33,13 @@ const About = () => {
             </div>
           </div>
 
-          {/* Decorative Element */}
+          {/* Image */}
           <div className="relative">
-            <div className="aspect-square bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                  <svg className="w-12 h-12 text-primary-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
-                  </svg>
-                </div>
-                <blockquote className="font-heading text-2xl text-foreground italic">
-                  "Thoughtful refinement, not criticism"
-                </blockquote>
-              </div>
-            </div>
-            
-            {/* Floating accent */}
-            <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-accent/20 rounded-full blur-xl" />
+            <img 
+              src={mainCurious} 
+              alt="Creative workspace with colorful sticky notes" 
+              className="w-full rounded-2xl shadow-lg object-cover"
+            />
           </div>
         </div>
       </div>

@@ -1,11 +1,10 @@
 import heroLogo from "@/assets/hero-logo.png";
 import heroCalm from "@/assets/herocalm.jpeg";
-import mainCurious from "@/assets/maincurious.jpg";
 
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center section-padding pt-32" style={{ backgroundColor: '#DED9D1' }}>
-      <div className="container-narrow text-center relative" style={{ fontSize: '1.1rem' }}>
+      <div className="container-narrow text-center" style={{ fontSize: '1.1rem' }}>
         
         <img 
           src={heroLogo} 
@@ -34,11 +33,6 @@ const Hero = () => {
           />
         </div>
 
-        <img 
-          src={mainCurious} 
-          alt="Creative workspace" 
-          className="absolute top-0 right-0 w-32 h-32 object-cover rounded-lg opacity-80"
-        />
       </div>
     </section>
   );
