@@ -3,7 +3,7 @@ import heroCalm from "@/assets/herocalm.jpeg";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center section-padding pt-32">
+    <section className="min-h-screen flex items-center justify-center section-padding pt-32" style={{ backgroundColor: '#DED9D1' }}>
       <div className="container-narrow text-center">
         
         <img 
@@ -20,10 +20,10 @@ const Hero = () => {
           I specialise in seeing what others miss—so your words are clear, confident, and correct.
         </p>
         
-        <div className="flex items-center justify-center gap-2 animate-fade-in-delay-3">
-          <span className="text-accent font-medium">Calm curiosity.</span>
+        <p className="text-base md:text-lg italic animate-fade-in-delay-3 max-w-2xl mx-auto">
+          <span className="text-accent">Calm curiosity.</span>{" "}
           <span className="text-foreground">Every detail matters.</span>
-        </div>
+        </p>
 
         <div className="mt-10 animate-fade-in-delay-3">
           <img 
