@@ -1,10 +1,11 @@
 import heroLogo from "@/assets/hero-logo.png";
 import heroCalm from "@/assets/herocalm.jpeg";
+import mainCurious from "@/assets/maincurious.jpg";
 
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center section-padding pt-32" style={{ backgroundColor: '#DED9D1' }}>
-      <div className="container-narrow text-center">
+      <div className="container-narrow text-center relative" style={{ fontSize: '1.1rem' }}>
         
         <img 
           src={heroLogo} 
@@ -12,15 +13,15 @@ const Hero = () => {
           className="h-24 md:h-32 lg:h-40 w-auto mx-auto mb-8 animate-fade-in"
         />
         
-        <p className="text-lg md:text-xl lg:text-2xl font-semibold leading-relaxed mb-6 animate-fade-in-delay-1 max-w-3xl mx-auto" style={{ color: '#D98C6C' }}>
+        <p className="font-semibold leading-relaxed mb-6 animate-fade-in-delay-1 max-w-3xl mx-auto" style={{ color: '#D98C6C' }}>
           Built on the belief that thoughtful attention and careful questioning lead to better content.
         </p>
         
-        <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-10 animate-fade-in-delay-2 max-w-2xl mx-auto">
+        <p className="text-muted-foreground leading-relaxed mb-10 animate-fade-in-delay-2 max-w-2xl mx-auto">
           I specialise in seeing what others miss—so your words are clear, confident, and correct.
         </p>
         
-        <p className="text-base md:text-lg italic animate-fade-in-delay-3 max-w-2xl mx-auto">
+        <p className="italic animate-fade-in-delay-3 max-w-2xl mx-auto">
           <span className="text-accent">Calm curiosity.</span>{" "}
           <span className="text-foreground">Every detail matters.</span>
         </p>
@@ -32,6 +33,12 @@ const Hero = () => {
             className="w-full max-w-2xl mx-auto rounded-2xl shadow-lg"
           />
         </div>
+
+        <img 
+          src={mainCurious} 
+          alt="Creative workspace" 
+          className="absolute top-0 right-0 w-32 h-32 object-cover rounded-lg opacity-80"
+        />
       </div>
     </section>
   );
