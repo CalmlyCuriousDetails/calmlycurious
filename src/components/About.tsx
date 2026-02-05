@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about" className="section-padding pt-12 bg-card">
       <div className="container-narrow">
-        <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-start">
           {/* Text Content */}
           <div>
             <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-foreground mb-8">
@@ -13,7 +13,7 @@ const About = () => {
             
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                A detail-focused website reviewer with a sharp eye for the tiny mistakes — 
+                A detail-focused <em>website reviewer</em> with a sharp eye for the tiny mistakes — 
                 <span className="text-accent"> spelling slips, awkward wording, and inconsistencies</span>. 
                 These are easy to overlook but hard to unsee once you notice them.
               </p>
