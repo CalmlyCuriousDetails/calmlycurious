@@ -54,6 +54,7 @@ export default {
         surface: {
           warm: "hsl(var(--surface-warm))",
           neutral: "hsl(var(--surface-neutral))",
+          sage: "hsl(var(--surface-sage))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
