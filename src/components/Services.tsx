@@ -1,17 +1,7 @@
 import { CheckCircle } from "lucide-react";
-
 const Services = () => {
-  const services = [
-    "Spelling and grammar review",
-    "Tone and clarity improvements",
-    "Consistency checks across pages",
-    "User experience feedback",
-    "Content flow and readability",
-    "Professional polish before launch",
-  ];
-
-  return (
-    <section id="services" className="section-padding bg-card">
+  const services = ["Spelling and grammar review", "Tone and clarity improvements", "Consistency checks across pages", "User experience feedback", "Content flow and readability", "Professional polish before launch"];
+  return <section id="services" className="section-padding bg-card">
       <div className="container-narrow">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Services List */}
@@ -25,23 +15,17 @@ const Services = () => {
             </p>
 
             <ul className="space-y-4">
-              {services.map((service) => (
-                <li key={service} className="flex items-start gap-3">
+              {services.map(service => <li key={service} className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <span className="text-foreground">{service}</span>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
           {/* Decorative Quote */}
           <div className="relative">
             <div className="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-8 md:p-12">
-              <svg
-                className="w-12 h-12 text-primary/30 mb-4"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
+              <svg className="w-12 h-12 text-primary/30 mb-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
               </svg>
               
@@ -53,7 +37,7 @@ const Services = () => {
                 <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center">
                   <span className="text-accent font-heading">V</span>
                 </div>
-                <span className="text-muted-foreground font-cursive text-2xl">Vicki Davidson</span>
+                <span className="text-muted-foreground text-2xl font-serif">Vicki Davidson</span>
               </div>
             </div>
             
@@ -63,8 +47,6 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Services;
