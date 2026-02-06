@@ -1,6 +1,6 @@
 const Philosophy = () => {
   return (
-    <section className="section-padding">
+    <section className="section-padding bg-surface-warm">
       <div className="container-narrow">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-foreground mb-8">

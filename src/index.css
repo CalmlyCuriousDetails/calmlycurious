@@ -45,6 +45,10 @@
     --heading-font: 'DM Serif Display', serif;
     --body-font: 'Inter', sans-serif;
 
+    /* Section backgrounds */
+    --surface-warm: 26 30% 75%;
+    --surface-neutral: 37 14% 85%;
+
     /* Sidebar (keeping defaults) */
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
