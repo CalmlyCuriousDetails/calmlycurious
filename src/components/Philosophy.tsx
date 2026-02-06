@@ -1,6 +1,6 @@
 const Philosophy = () => {
   return (
-    <section className="section-padding bg-surface-warm">
+    <section className="section-padding">
       <div className="container-narrow">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-foreground mb-8">
@@ -31,7 +31,7 @@ const Philosophy = () => {
             ].map((item, index) => (
               <div
                 key={item.title}
-                className="group p-6 rounded-xl bg-card border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5"
+                className="group p-6 rounded-xl bg-surface-sage border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5"
               >
                 <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                   <span className="text-primary font-heading text-xl">{index + 1}</span>
