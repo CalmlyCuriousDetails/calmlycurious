@@ -2,7 +2,7 @@ import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="border-t border-border py-12 px-6">
+    <footer className="border-t border-border py-12 px-6 bg-surface-neutral">
       <div className="container-narrow">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">

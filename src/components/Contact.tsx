@@ -3,7 +3,7 @@ import { Mail } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="section-padding">
+    <section id="contact" className="section-padding bg-surface-neutral">
       <div className="container-narrow">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-foreground mb-6">
