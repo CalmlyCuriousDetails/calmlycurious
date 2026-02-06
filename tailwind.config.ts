@@ -16,7 +16,7 @@ export default {
       fontFamily: {
         heading: ['DM Serif Display', 'serif'],
         body: ['Inter', 'sans-serif'],
-        cursive: ['Dancing Script', 'cursive'],
+        cursive: ['Great Vibes', 'cursive'],
       },
       colors: {
         border: "hsl(var(--border))",
