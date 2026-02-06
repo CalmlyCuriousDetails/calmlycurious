@@ -53,7 +53,7 @@ const Services = () => {
                 <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center">
                   <span className="text-accent font-heading">V</span>
                 </div>
-                <span className="text-muted-foreground font-cursive text-lg">Vicki Davidson</span>
+                <span className="text-muted-foreground font-cursive text-2xl">Vicki Davidson</span>
               </div>
             </div>
             
