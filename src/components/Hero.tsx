@@ -17,7 +17,7 @@ const Hero = () => {
         </p>
         
         <p className="text-muted-foreground leading-relaxed mb-10 animate-fade-in-delay-2 max-w-2xl mx-auto">
-          I specialise in seeing what others miss—so your words are clear, confident, and correct.
+          I specialise in seeing what others miss — so your words are clear, confident, and correct.
         </p>
         
         <p className="text-muted-foreground leading-relaxed animate-fade-in-delay-3 max-w-2xl mx-auto">

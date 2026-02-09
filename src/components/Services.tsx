@@ -30,7 +30,7 @@ const Services = () => {
               </svg>
               
               <p className="font-heading text-2xl md:text-3xl text-foreground leading-relaxed mb-6">
-                It's the tiny details that build—or break—trust with your audience.
+                It's the tiny details that build — or break — trust with your audience.
               </p>
               
               <div className="flex items-center gap-3">
