@@ -20,9 +20,8 @@ const Hero = () => {
           I specialise in seeing what others miss—so your words are clear, confident, and correct.
         </p>
         
-        <p className="italic animate-fade-in-delay-3 max-w-2xl mx-auto">
-          <span className="text-accent">Calm curiosity.</span>{" "}
-          <span className="text-foreground">Every detail matters.</span>
+        <p className="text-muted-foreground leading-relaxed animate-fade-in-delay-3 max-w-2xl mx-auto">
+          You know that feeling when you walk into a store, pass a sign, or open a book or webpage — and something just isn't right? That quiet frustration, followed by the instant excitement of wanting to fix it. That's me. I know that feeling.
         </p>
 
         <div className="mt-10 animate-fade-in-delay-3">
@@ -32,6 +31,15 @@ const Hero = () => {
             className="w-full max-w-2xl mx-auto rounded-2xl shadow-lg"
           />
         </div>
+
+        <p className="italic animate-fade-in-delay-3 max-w-2xl mx-auto mt-8">
+          <span className="text-accent">Calm curiosity.</span>{" "}
+          <span className="text-foreground">Every detail matters.</span>
+        </p>
+        
+        <p className="italic text-muted-foreground animate-fade-in-delay-3 max-w-2xl mx-auto mt-4">
+          I don't look for problems — bad typography finds me.
+        </p>
 
       </div>
     </section>
