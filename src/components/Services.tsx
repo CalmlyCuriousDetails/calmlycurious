@@ -30,14 +30,14 @@ const Services = () => {
               </svg>
               
               <p className="font-heading text-2xl md:text-3xl text-foreground leading-relaxed mb-6">
-                It's the tiny details that build — or break — trust with your audience.
+                I don't look for problems — bad typography finds me.
               </p>
               
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center">
                   <span className="text-accent font-heading">V</span>
                 </div>
-                <span className="text-muted-foreground text-2xl font-serif">Vicki Davidson</span>
+                <span className="text-muted-foreground text-2xl" style={{ fontFamily: "'Playwrite IN Guides', cursive" }}>Vicki Davidson</span>
               </div>
             </div>
             

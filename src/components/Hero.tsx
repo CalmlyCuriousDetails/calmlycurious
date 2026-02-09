@@ -36,10 +36,6 @@ const Hero = () => {
           <span className="text-accent">Calm curiosity.</span>{" "}
           <span className="text-foreground">Every detail matters.</span>
         </p>
-        
-        <p className="italic text-muted-foreground animate-fade-in-delay-3 max-w-2xl mx-auto mt-4">
-          I don't look for problems — bad typography finds me.
-        </p>
 
       </div>
     </section>
