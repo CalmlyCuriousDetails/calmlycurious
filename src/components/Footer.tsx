@@ -26,6 +26,9 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 pt-8 border-t border-border text-center">
+          <p className="italic text-accent tracking-wide mb-4" style={{ fontSize: '1rem', letterSpacing: '0.05em' }}>
+            Even proofreaders make the occasional typo — the difference is, we always spot it.
+          </p>
           <p className="text-muted-foreground text-sm">
             © {new Date().getFullYear()} Calmly Curious. All rights reserved.
           </p>
