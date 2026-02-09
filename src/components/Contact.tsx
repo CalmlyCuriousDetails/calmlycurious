@@ -20,7 +20,7 @@ const Contact = () => {
             className="group"
             asChild
           >
-            <a href="mailto:hello@calmlycurious.com">
+            <a href="mailto:codingvicki@gmail.com">
               <Mail className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
               Get in Touch
             </a>
