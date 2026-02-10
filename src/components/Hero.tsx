@@ -32,7 +32,11 @@ const Hero = () => {
           />
         </div>
 
-        <p className="italic animate-fade-in-delay-3 max-w-2xl mx-auto mt-8">
+        <p className="animate-fade-in-delay-3 max-w-2xl mx-auto mt-8" style={{ fontSize: '1.125rem' }}>
+          If your website looks good but doesn't quite read as smoothly as it could, I can help gently refine the details that shape a strong first impression.
+        </p>
+
+        <p className="italic animate-fade-in-delay-3 max-w-2xl mx-auto mt-4" style={{ fontSize: '1.25rem' }}>
           <span className="text-accent">Calm curiosity.</span>{" "}
           <span className="text-foreground">Every detail matters.</span>
         </p>
