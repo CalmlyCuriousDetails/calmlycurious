@@ -11,7 +11,7 @@ const Services = () => {
             </h2>
             
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              I'll help your website sound just as good as it looks.
+              I help your content sound as good as it looks — online and in print.
             </p>
 
             <ul className="space-y-4">
