@@ -8,7 +8,7 @@ const About = () => {
           Hi! I'm Vicki
         </h2>
         
-        <div className="grid md:grid-cols-2 gap-10 lg:gap-20 items-start">
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-start">
           {/* Text Content */}
           <div className="space-y-6 text-muted-foreground leading-relaxed">
             <p>
