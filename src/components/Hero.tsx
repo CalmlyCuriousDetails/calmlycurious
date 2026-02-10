@@ -32,7 +32,7 @@ const Hero = () => {
           />
         </div>
 
-        <p className="animate-fade-in-delay-3 max-w-2xl mx-auto mt-8" style={{ fontSize: '1.125rem' }}>
+        <p className="text-muted-foreground animate-fade-in-delay-3 max-w-2xl mx-auto mt-8" style={{ fontSize: '1.125rem' }}>
           If your website looks good but doesn't quite read as smoothly as it could, I can help gently refine the details that shape a strong first impression.
         </p>
 
