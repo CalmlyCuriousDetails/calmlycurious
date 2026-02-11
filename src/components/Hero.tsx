@@ -4,7 +4,7 @@ import heroCalm from "@/assets/herocalm.jpeg";
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center section-padding px-[32px] pt-[48px] pb-[16px]" style={{ backgroundColor: '#DED9D1' }}>
-      <div className="container-narrow text-center p-[32px] pb-[16px]" style={{ fontSize: '1.125rem' }}>
+      <div className="container-narrow text-center px-[32px] pt-[48px] pb-[16px]" style={{ fontSize: '1.125rem' }}>
         
         <img
           src={heroLogo}
