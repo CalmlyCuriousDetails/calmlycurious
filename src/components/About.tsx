@@ -17,17 +17,17 @@ const About = () => {
               These are easy to overlook but hard to unsee once you notice them.
             </p>
             
-            <p>
-              My background and experiences are a mix of real-world service and digital design, 
-              spanning administration, travel, restaurant work, and graphic design. This diverse path, 
-              combined with hands-on experience in HTML and UX/UI principles, gives me a unique understanding 
-              of how words, visuals, and user experience all come together to create a professional, 
-              trustworthy online presence.
+            <p>My background and experiences are a mix of real-world service and digital design, spanning administration, travel, hospitality, and graphic design. This diverse path, combined with hands-on experience in HTML and UX/UI principles, gives me a unique understanding of how words, visuals, and user experience all come together to create a professional, trustworthy online presence.
+
+
+
+
+
             </p>
             
-            <p>
-              I don't just see words on a screen; I understand how they interact with the layout 
-              and the human being on the other side.
+            <p>I don't just see words on a screen; I understand how they interact with the layout and the human being on the other side. I ensure that your information is not just present but actually useful and easy to navigate.
+
+
             </p>
           </div>
 
