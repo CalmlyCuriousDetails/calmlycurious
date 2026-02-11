@@ -1,7 +1,7 @@
 import { CheckCircle } from "lucide-react";
 const Services = () => {
   const services = ["Spelling and grammar review", "Tone and clarity improvements", "Consistency checks across pages", "User experience feedback", "Content flow and readability", "Professional polish before launch"];
-  return <section id="services" className="section-padding bg-card">
+  return <section id="services" className="section-padding bg-card pl-[32px] pt-[64px] pr-[32px] pb-[16px]">
       <div className="container-narrow">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Services List */}
@@ -15,7 +15,7 @@ const Services = () => {
             </p>
 
             <ul className="space-y-4">
-              {services.map(service => <li key={service} className="flex items-start gap-3">
+              {services.map((service) => <li key={service} className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <span className="text-foreground">{service}</span>
                 </li>)}
