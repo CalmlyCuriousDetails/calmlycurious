@@ -34,7 +34,7 @@ const Philosophy = () => {
               className="group p-6 rounded-xl bg-surface-sage border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
 
                 <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-surface-light flex items-center justify-center group-hover:bg-accent transition-colors">
-                  <span className="text-surface-light font-heading text-xl">{index + 1}</span>
+                  <span className="text-primary group-hover:text-surface-light font-heading text-xl transition-colors">{index + 1}</span>
                 </div>
                 <h3 className="font-heading text-xl text-foreground mb-2">{item.title}</h3>
                 <p className="text-surface-light text-sm">{item.description}</p>
