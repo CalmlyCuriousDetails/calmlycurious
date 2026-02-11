@@ -3,14 +3,14 @@ import heroCalm from "@/assets/herocalm.jpeg";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center section-padding pt-32" style={{ backgroundColor: '#DED9D1' }}>
+    <section className="min-h-screen flex items-center justify-center section-padding pl-[32px] pr-[32px] pt-[32px] pb-[16px]" style={{ backgroundColor: '#DED9D1' }}>
       <div className="container-narrow text-center" style={{ fontSize: '1.125rem' }}>
         
-        <img 
-          src={heroLogo} 
-          alt="Calmly Curious" 
-          className="h-24 md:h-32 lg:h-40 w-auto mx-auto mb-8 animate-fade-in"
-        />
+        <img
+          src={heroLogo}
+          alt="Calmly Curious"
+          className="h-24 md:h-32 lg:h-40 w-auto mx-auto mb-8 animate-fade-in" />
+
         
         <p className="font-semibold leading-relaxed mb-6 animate-fade-in-delay-1 max-w-3xl mx-auto" style={{ color: '#D98C6C' }}>
           Built on the belief that thoughtful attention and careful questioning lead to better content.
@@ -25,11 +25,11 @@ const Hero = () => {
         </p>
 
         <div className="mt-10 animate-fade-in-delay-3">
-          <img 
-            src={heroCalm} 
-            alt="Calm workspace" 
-            className="w-full max-w-2xl mx-auto rounded-2xl shadow-lg"
-          />
+          <img
+            src={heroCalm}
+            alt="Calm workspace"
+            className="w-full max-w-2xl mx-auto rounded-2xl shadow-lg" />
+
         </div>
 
         <p className="text-muted-foreground animate-fade-in-delay-3 max-w-2xl mx-auto mt-8" style={{ fontSize: '1.125rem' }}>
@@ -42,8 +42,8 @@ const Hero = () => {
         </p>
 
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Hero;
