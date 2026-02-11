@@ -25,7 +25,7 @@ const Philosophy = () => {
               description: "Consistent, thorough attention to every detail, every time."
             },
             {
-              title: "Easy to work with",
+              title: "Collaborative",
               description: "Clear communication and a collaborative spirit throughout."
             }].
             map((item, index) =>
