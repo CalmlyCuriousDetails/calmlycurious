@@ -8,7 +8,7 @@ const About = () => {
           Hi! I'm Vicki
         </h2>
         
-        <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-start">
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-18 items-start">
           {/* Text Content */}
           <div className="space-y-6 text-muted-foreground leading-relaxed">
             <p>
@@ -33,16 +33,16 @@ const About = () => {
 
           {/* Image */}
           <div className="relative">
-            <img 
-              src={mainWords} 
-              alt="Creative workspace with colorful sticky notes" 
-              className="w-full rounded-2xl shadow-lg object-cover"
-            />
+            <img
+              src={mainWords}
+              alt="Creative workspace with colorful sticky notes"
+              className="w-full rounded-2xl shadow-lg object-cover" />
+
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default About;
