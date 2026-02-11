@@ -26,7 +26,7 @@ const Philosophy = () => {
             },
             {
               title: "Collaborative",
-              description: "Clear communication and a collaborative spirit throughout."
+              description: "Clear communication and a helpful approach throughout."
             }].
             map((item, index) =>
             <div
