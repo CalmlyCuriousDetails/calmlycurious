@@ -3,7 +3,7 @@ import { Mail } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="section-padding bg-surface-neutral">
+    <section id="contact" className="section-padding bg-surface-neutral pl-[32px] pr-[32px] pt-[32px] pb-[32px]">
       <div className="container-narrow">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-foreground mb-6">
@@ -18,8 +18,8 @@ const Contact = () => {
           <Button
             size="lg"
             className="group"
-            asChild
-          >
+            asChild>
+
             <a href="mailto:codingvicki@gmail.com">
               <Mail className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
               Get in Touch
@@ -27,8 +27,8 @@ const Contact = () => {
           </Button>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Contact;
