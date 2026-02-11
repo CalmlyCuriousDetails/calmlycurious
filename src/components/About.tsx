@@ -1,4 +1,4 @@
-import mainWords from "@/assets/mainwords.jpg";
+import mainDesk from "@/assets/maindesk.jpg";
 
 const About = () => {
   return (
@@ -34,7 +34,7 @@ const About = () => {
           {/* Image */}
           <div className="relative">
             <img
-              src={mainWords}
+              src={mainDesk}
               alt="Creative workspace with colorful sticky notes"
               className="w-full rounded-2xl shadow-lg object-cover" />
 
