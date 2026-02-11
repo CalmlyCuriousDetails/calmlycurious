@@ -2,7 +2,7 @@ import { CheckCircle, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 const Services = () => {
   const services = ["Spelling and grammar review", "Tone and clarity improvements", "Consistency alignment", "User experience insights", "Content flow and readability", "The finishing touch"];
-  return <section id="services" className="section-padding bg-card pl-[32px] pr-[32px] pt-[32px] pb-[32px]">
+  return <section id="services" className="section-padding bg-card px-[32px] py-[48px]">
       <div className="container-narrow">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Services List */}

@@ -2,7 +2,7 @@ import mainWords from "@/assets/mainwords.jpg";
 
 const About = () => {
   return (
-    <section id="about" className="section-padding bg-card pl-[32px] pr-[32px] pt-[32px] pb-[32px]">
+    <section id="about" className="section-padding bg-card px-[32px] py-[48px]">
       <div className="container-narrow">
         <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-foreground mb-8">
           Hi! I'm Vicki
