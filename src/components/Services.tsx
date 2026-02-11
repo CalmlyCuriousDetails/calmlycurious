@@ -17,7 +17,7 @@ const Services = () => {
             <ul className="space-y-4">
               {services.map((service) => <li key={service} className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-foreground">{service}</span>
+                  <span className="text-foreground font-medium">{service}</span>
                 </li>)}
             </ul>
           </div>
