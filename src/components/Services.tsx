@@ -1,4 +1,5 @@
-import { CheckCircle } from "lucide-react";
+import { CheckCircle, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 const Services = () => {
   const services = ["Spelling and grammar review", "Tone and clarity improvements", "Consistency alignment", "User experience insights", "Content flow and readability", "The finishing touch"];
   return <section id="services" className="section-padding bg-card pl-[32px] pr-[32px] pt-[32px] pb-[32px]">
@@ -20,6 +21,14 @@ const Services = () => {
                   <span className="text-foreground font-medium">{service}</span>
                 </li>)}
             </ul>
+
+            <Link
+              to="/services"
+              className="inline-flex items-center gap-2 mt-8 text-primary hover:text-secondary transition-colors duration-300 font-medium"
+            >
+              Learn more about my services
+              <ArrowRight className="w-4 h-4" />
+            </Link>
           </div>
 
           {/* Decorative Quote */}
