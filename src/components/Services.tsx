@@ -37,7 +37,7 @@ const Services = () => {
                 <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center">
                   <span className="text-accent font-heading">V</span>
                 </div>
-                <span className="text-muted-foreground text-2xl" style={{ fontFamily: "Georgia, serif" }}>Vicki Davidson</span>
+                <span className="text-muted-foreground text-xl font-sans" style={{ fontFamily: "Georgia, serif" }}>Vicki Davidson</span>
               </div>
             </div>
             
