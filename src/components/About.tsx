@@ -17,7 +17,7 @@ const About = () => {
               These are easy to overlook but hard to unsee once you notice them.
             </p>
             
-            <p>My background and experiences are a mix of real-world service and digital design, spanning administration, travel, hospitality, and graphic design. This diverse path, combined with hands-on experience in HTML and UX/UI principles, gives me a unique understanding of how words, visuals, and user experience all come together to create a professional, trustworthy online presence.
+            <p>My background and experiences are a mix of real-world service and digital design, spanning administration, travel, hospitality, web, and graphic design. This diverse path, combined with hands-on experience in HTML and UX/UI principles, gives me a unique understanding of how words, visuals, and user experience all come together to create a professional, trustworthy online presence.
 
 
 
