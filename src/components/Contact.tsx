@@ -2,13 +2,14 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Send } from "lucide-react";
+import { Mail, Send, Paperclip } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
   const { toast } = useToast();
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [sending, setSending] = useState(false);
+  const [attachment, setAttachment] = useState<File | null>(null);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -36,6 +37,7 @@ const Contact = () => {
     setTimeout(() => {
       setSending(false);
       setFormData({ name: "", email: "", message: "" });
+      setAttachment(null);
       toast({ title: "Your email client should have opened. Thank you!" });
     }, 1000);
   };
@@ -95,6 +97,38 @@ const Contact = () => {
             rows={5}
             className="bg-card border-border resize-none"
           />
+          <div>
+            <label className="flex items-center gap-2 cursor-pointer text-muted-foreground text-sm">
+              <Paperclip className="w-4 h-4" />
+              <span>Attach a file (optional)</span>
+              <input
+                type="file"
+                className="hidden"
+                onChange={(e) => {
+                  const file = e.target.files?.[0];
+                  if (file) {
+                    setAttachment(file);
+                  }
+                }}
+              />
+            </label>
+            {attachment && (
+              <div className="flex items-center gap-2 mt-2 text-sm text-foreground">
+                <Paperclip className="w-3 h-3" />
+                <span>{attachment.name}</span>
+                <button
+                  type="button"
+                  onClick={() => setAttachment(null)}
+                  className="text-muted-foreground hover:text-foreground ml-1"
+                >
+                  ✕
+                </button>
+              </div>
+            )}
+            <p className="text-muted-foreground text-xs mt-1">
+              Please remember to attach this file in your email client when it opens.
+            </p>
+          </div>
           <div className="text-center">
             <Button type="submit" size="lg" disabled={sending}>
               <Send className="w-4 h-4 mr-2" />
