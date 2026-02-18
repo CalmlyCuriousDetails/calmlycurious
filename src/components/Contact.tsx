@@ -49,7 +49,7 @@ const Contact = () => {
           </h2>
 
           <p className="text-muted-foreground text-lg leading-relaxed mb-10">
-            Ready to give your website the polished, professional finish it deserves? I'd love to hear about your project.
+            Ready to give your content (website and/or print) the polished, professional finish it deserves? I'd love to hear about your project.
           </p>
 
           <Button size="lg" className="group" asChild>
