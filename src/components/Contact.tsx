@@ -52,9 +52,9 @@ const Contact = () => {
             Ready to give your content (website and/or print) the polished, professional finish it deserves? I'd love to hear about your project.
           </p>
 
-          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-foreground mb-6">
+          <h3 className="font-heading text-2xl md:text-3xl lg:text-4xl text-foreground mb-6">
             Contact
-          </h2>
+          </h3>
 
           <Button size="lg" className="group" asChild>
             <a href="mailto:codingvicki@gmail.com">
