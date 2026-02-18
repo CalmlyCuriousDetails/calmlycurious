@@ -25,7 +25,7 @@ const About = () => {
 
             </p>
             
-            <p>I don't just see words on a screen; I understand how they interact with the layout and the human being on the other side. I ensure that your information is not just present but actually useful and easy to navigate.
+            <p>I don't just see words on a screen; I understand how they interact with the layout and the human being on the other side. I verify that your information is not just present but actually useful and easy to navigate.
 
 
             </p>
