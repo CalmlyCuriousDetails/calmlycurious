@@ -36,7 +36,7 @@ const Philosophy = () => {
                 <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-surface-light flex items-center justify-center group-hover:bg-accent transition-colors">
                   <span className="text-primary group-hover:text-surface-light font-heading text-xl transition-colors">{index + 1}</span>
                 </div>
-                <h3 className="font-heading text-xl mb-2 font-bold" style={{ color: '#2b333b' }}>{item.title}</h3>
+                <h3 className="font-heading text-xl mb-2" style={{ color: '#2b333b' }}>{item.title}</h3>
                 <p className="text-surface-light text-base">{item.description}</p>
               </div>
             )}
