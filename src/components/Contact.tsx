@@ -51,6 +51,15 @@ const Contact = () => {
 
           <p className="text-muted-foreground text-lg leading-relaxed mb-10">
             Ready to give your content (website and/or print) the polished, professional finish it deserves? I'd love to hear about your project.
+            {" "}
+            <a
+              href="/printable-questionnaire.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent underline underline-offset-4 hover:text-accent/80 transition-colors"
+            >
+              Discovery Questionnaire
+            </a>
           </p>
 
           <h3 className="font-heading text-2xl md:text-3xl lg:text-4xl text-foreground mb-6">
