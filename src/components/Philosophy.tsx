@@ -37,7 +37,7 @@ const Philosophy = () => {
                   <span className="text-primary group-hover:text-surface-light font-heading text-xl transition-colors">{index + 1}</span>
                 </div>
                 <h3 className="font-heading text-xl text-foreground mb-2">{item.title}</h3>
-                <p className="text-surface-light text-sm">{item.description}</p>
+                <p className="text-surface-light text-base">{item.description}</p>
               </div>
             )}
           </div>
