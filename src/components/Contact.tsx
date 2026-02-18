@@ -63,7 +63,7 @@ const Contact = () => {
             </a>
           </Button>
 
-          <p className="text-muted-foreground text-base mt-12">
+          <p className="text-muted-foreground text-lg mt-12">
             or fill in the contact form below to send me a message
           </p>
         </div>
