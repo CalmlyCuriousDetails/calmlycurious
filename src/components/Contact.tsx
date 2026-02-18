@@ -55,8 +55,7 @@ const Contact = () => {
 
           <a
             href="/printable-questionnaire.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            download="Discovery-Questionnaire.pdf"
             className="text-accent underline underline-offset-4 hover:text-accent/80 transition-colors text-lg inline-block mb-10"
           >
             Discovery Questionnaire
