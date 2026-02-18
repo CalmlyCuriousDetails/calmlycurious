@@ -49,18 +49,18 @@ const Contact = () => {
             Let's Work Together
           </h2>
 
-          <p className="text-muted-foreground text-lg leading-relaxed mb-10">
+          <p className="text-muted-foreground text-lg leading-relaxed mb-4">
             Ready to give your content (website and/or print) the polished, professional finish it deserves? I'd love to hear about your project.
-            {" "}
-            <a
-              href="/printable-questionnaire.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-accent underline underline-offset-4 hover:text-accent/80 transition-colors"
-            >
-              Discovery Questionnaire
-            </a>
           </p>
+
+          <a
+            href="/printable-questionnaire.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent underline underline-offset-4 hover:text-accent/80 transition-colors text-lg inline-block mb-10"
+          >
+            Discovery Questionnaire
+          </a>
 
           <h3 className="font-heading text-2xl md:text-3xl lg:text-4xl text-foreground mb-6">
             Contact
