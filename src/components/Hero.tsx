@@ -20,11 +20,11 @@ const Hero = () => {
         </p>
         
         <p className="text-muted-foreground leading-relaxed mb-10 animate-fade-in-delay-2 max-w-2xl mx-auto">
-          I specialise in seeing what others miss — so your words are clear, confident, and correct.
+          You know that feeling when you walk into a store, pass a sign, or open a book or webpage — and something just isn't right? That quiet frustration, followed by the instant excitement of wanting to fix it. That's me. I know that feeling.
         </p>
         
         <p className="text-muted-foreground leading-relaxed animate-fade-in-delay-3 max-w-2xl mx-auto">
-          You know that feeling when you walk into a store, pass a sign, or open a book or webpage — and something just isn't right? That quiet frustration, followed by the instant excitement of wanting to fix it. That's me. I know that feeling.
+          If your website looks good but doesn't quite read as smoothly as it could, I can help gently refine the details that shape a strong first impression.
         </p>
 
         <div className="mt-10 animate-fade-in-delay-3">
