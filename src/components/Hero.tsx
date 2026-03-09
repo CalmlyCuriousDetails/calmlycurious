@@ -12,11 +12,11 @@ const Hero = () => {
           className="h-24 md:h-32 lg:h-40 w-auto mx-auto mb-8 animate-fade-in" />
 
         
-        <p className="font-semibold leading-relaxed mb-6 animate-fade-in-delay-1 max-w-3xl mx-auto" style={{ color: '#D98C6C' }}>
-          I bridge the gap between the bot and the brain — so your words are clear, confident, and correct. #websitereviewer #AIContentEditor
+        <p className="font-semibold leading-relaxed mb-6 animate-fade-in-delay-1 max-w-3xl mx-auto" style={{ color: '#D98C6C' }}>I bridge the gap between the bot and the brain — so your words are clear, confident, and correct. #WebsiteReviewer #AIContentEditor
 
-        
-        
+
+
+
         </p>
         
         <p className="text-muted-foreground leading-relaxed mb-4 animate-fade-in-delay-2 max-w-2xl mx-auto">
