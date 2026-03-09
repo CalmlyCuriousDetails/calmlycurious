@@ -13,7 +13,10 @@ const Hero = () => {
 
         
         <p className="font-semibold leading-relaxed mb-6 animate-fade-in-delay-1 max-w-3xl mx-auto" style={{ color: '#D98C6C' }}>
-          Built on the belief that thoughtful attention and careful questioning lead to better content.
+          I bridge the gap between the bot and the brain — so your words are clear, confident, and correct. #websitereviewer #AIContentEditor
+
+        
+        
         </p>
         
         <p className="text-muted-foreground leading-relaxed mb-10 animate-fade-in-delay-2 max-w-2xl mx-auto">
@@ -25,15 +28,12 @@ const Hero = () => {
         </p>
 
         <div className="mt-10 animate-fade-in-delay-3">
-          <img
-            src={heroCalm}
-            alt="Calm workspace"
-            className="w-full max-w-2xl mx-auto rounded-2xl shadow-lg" />
+          <img src={heroCalm} alt="Calm workspace" className="w-full max-w-2xl mx-auto rounded-2xl shadow-lg" />
 
         </div>
 
         <p className="text-muted-foreground animate-fade-in-delay-3 max-w-2xl mx-auto mt-8" style={{ fontSize: '1.125rem' }}>
-          If your website looks good but doesn't quite read as smoothly as it could, I can help gently refine the details that shape a strong first impression.
+
         </p>
 
         <p className="italic animate-fade-in-delay-3 max-w-2xl mx-auto mt-4" style={{ fontSize: '1.25rem' }}>
